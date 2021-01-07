@@ -54,7 +54,7 @@ function setup() {
   poly = Bodies.circle(50,200,20 ,{density:2});
   World.add(world, poly);
 
-  slingShot = new Slingshot(this.poly, {x:150, y:400})
+  slingShot = new Slingshot(this.poly, {x:200, y:300})
 
 
 }
